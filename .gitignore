@@ -1,0 +1,22 @@
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Frontend dependencies and build output
+**/node_modules/
+**/.next/
+**/out/
+**/coverage/
