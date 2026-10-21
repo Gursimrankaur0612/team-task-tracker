@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:8000/api";
+const API_BASE = "https://team-task-tracker-41nt.onrender.com/api";
 
 export async function apiRequest<T = any>(
   path: string,
