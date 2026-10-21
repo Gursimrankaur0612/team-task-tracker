@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-hm&(#6qpl4*)9oadi5m&hn38cf+t3jbh)t#(hkig_zu%13g%)b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "team-task-tracker-41nt.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
