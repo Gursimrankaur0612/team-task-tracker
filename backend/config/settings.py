@@ -135,9 +135,10 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Frontend development server
+# Frontend allowed origins
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "https://team-task-tracker-usgkci20j-gursimrankaur0612s-projects.vercel.app",
 ]
 
 # REST API defaults
