@@ -142,6 +142,9 @@ CORS_ALLOWED_ORIGINS = [
     "https://team-task-tracker-hsgs8gz2l-gursimrankaur0612s-projects.vercel.app",
     "https://team-task-tracker-usgkci20j-gursimrankaur0612s-projects.vercel.app",
 ]
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://team-task-tracker-[a-z0-9]+-gursimrankaur0612s-projects\.vercel\.app$",
+]
 
 # REST API defaults
 REST_FRAMEWORK = {
